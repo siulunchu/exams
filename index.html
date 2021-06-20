@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Quiz by AWO2 Chu</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color:#808080">
+<header>
+  <h1><center>UNCLASSIFIED // FOUO</center></h1>
+  </header>
+    <div id="container">
+	
+<script language="javascript">
+function pasuser(form) {
+if (form.pass.value=="aw") {              
+location="link.html" 
+} else {
+alert("Invalid Password")
+}
+} 
+</script>
+
+<center>
+<table bgcolor="EBECF0" cellpadding="10" border="3" style="border: 0px dashed #0f0">
+<tr><td colspan="2" bordercolor="#000000" style="border: 3px solid #000424"><center><h1><i><b>
+	<font size="9">Enter aw for the password</font></b></i></h1></center></td></tr>
+<tr><td height="30" bordercolor="#000000" style="border: 3px solid #000424"><h1><i><b>
+	<font size="9">Password:</font></b></i></h1></td>
+	<td height="44" bordercolor="#000000" style="border: 3px solid #000424"><form name="login"><input
+name="pass" type="password" style="height: 30px; width: 200px"></td></tr>
+<tr> <font size="9"><td bordercolor="#000000" style="border: 3px solid #000424" height="31"><center>
+<input type="button" value="Login" onClick="pasuser(this.form)"  style="border: 2px solid; #000424; height: 30px; width: 150px"></center></td>
+	<td bordercolor="#000000"  style="border: 3px solid #000424" height="31"><center>
+	<input type="Reset"  style="border: 2px solid; #000424; height: 30px; width: 150px"></form></td></font size="9"></tr></table></center> 
+	
+
+
+
+
+
+
+        <div id="quiz" style="display: none">
+
+            <div id="question"></div>
+
+            <div id="qImg"></div>
+
+            <div id="choices">
+
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+							
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+				
+				<div class="choice" id="D" onclick="checkAnswer('D')"></div>
+
+            </div>
+
+            <div id="timer">
+
+                <div id="counter"></div>
+
+                <div id="btimeGauge"></div>
+
+                <div id="timeGauge"></div>
+
+            </div>
+
+            <div id="progress"></div>
+
+        </div>
+
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+<footer>
+  <h1><center>UNCLASSIFIED // FOUO</center></h1>
+  
+</footer>
+</body>
+
+</html>
