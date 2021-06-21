@@ -102,6 +102,17 @@ body{
     border-top-left-radius: 5px;
 }
 
+
+#ref{
+    width : 700px;
+    position: absolute;
+    right : 0;
+    top : 180px;
+    padding : 25px;
+	text-align: left & center;
+    padding : 10px;
+	font-size: .8em;
+}
 #question{
     width: 750px;
     height : 550px;
@@ -119,7 +130,7 @@ body{
     width : 700px;
     position: absolute;
     right : 0;
-    top : 180px;
+    top : 200px;
     padding : 25px
 }
 .choice{
